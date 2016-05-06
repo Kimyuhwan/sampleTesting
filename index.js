@@ -1,7 +1,7 @@
 module.exports = Bear;
 
 function Bear(type) {
-    this.type = type || "any";
+    this.type = type;
 };
 
 Bear.prototype.growl = function(says) {
